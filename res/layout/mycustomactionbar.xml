@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:layout_gravity="fill_horizontal">
+
+    <EditText
+        android:id="@+id/etSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginLeft="5dp"
+        android:ems="14"
+        android:hint="URL or Keywords"
+        android:inputType="textNoSuggestions" 
+        android:textColor="@color/black"
+        android:background="@color/myeditText"
+        >
+        
+    </EditText> 
+
+    <ImageButton
+        android:id="@+id/ibrefresh"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/refresh" />
+     <!--     android:background="@color/actionbarwhite"  -->
+        
+
+    
+    
+    
+</RelativeLayout>

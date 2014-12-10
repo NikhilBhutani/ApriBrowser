@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.actionbar.MainActivity" 
+   >
+
+    <item
+        android:id="@+id/action_prevItem"
+        android:icon="@drawable/ic_action_previous_item"
+        android:showAsAction="always"
+        android:title="@string/action_settings"
+        
+        />
+
+    <item
+        android:id="@+id/action_nextIten"
+        android:icon="@drawable/ic_action_next_item"
+        android:showAsAction="always"
+        android:title="@string/action_settings"/>
+    
+    <item
+        android:id="@+id/action_bookmark"
+        android:icon="@drawable/ic_action_star"
+        android:showAsAction="always"
+        android:title="@string/action_settings"/>
+    
+    
+    <item
+        android:id="@+id/action_Drawer"
+        android:icon="@drawable/ic_drawer"
+        android:showAsAction="always"
+        android:title="@string/action_settings"/>
+    
+    
+</menu>

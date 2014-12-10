@@ -1,0 +1,26 @@
+<resources>
+
+    <color name="red">#ff0000</color>
+<color name="green">#00ff00</color>
+<color name="blue">#0000ff</color>
+<color name="actionbarwhite">#FAFAFA</color>
+<color name="black">#000000</color>
+<color name="myeditText">#EBEAEA</color>
+<color name="bgcolor">#E6E6E6</color>
+    
+    
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/MyActionBarTheme</item>
+    </style>
+    
+    <style name="MyActionBarTheme" parent="@android:style/Widget.ActionBar">
+       <item name="android:background">#F3F5F2</item>
+       
+   </style>
+
+</resources>
